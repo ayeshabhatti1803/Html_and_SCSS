@@ -15,4 +15,34 @@
     background: white;
     @include easeOut;
    }
+
+
+   //rotate into X with menu lines
+   //styling the button
+    &.close {
+        transform: rotate(180deg);
+        
+        .btn-line {   //psuedo selector
+
+            //line 1 rote
+             &:nth-child(1) {   //transform making into X and translate into reposition it
+                transform: rotate(45deg) translate(5px, 5px);
+             }
+
+
+            //line 2 hide
+            &:nth-child(2) {   //changes opacity
+                opacity: 0;
+             }
+
+            //line 3 rotate
+
+            &:nth-child(3) {   //transform making into X and translate into reposition it
+                transform: rotate(-45deg) translate(7px, -6px);
+             }
+
+
+
+        }
+    }
 }
