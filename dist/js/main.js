@@ -4,7 +4,7 @@ const menubtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
 const menunav = document.querySelector('.menu-nav');
 const menubranding = document.querySelector('.menu-branding');
-const navitem = document.querySelectorAll('.nav-items');
+const navitem = document.querySelectorAll('.nav-item');
 
 //select the inial state of menu
 
