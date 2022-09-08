@@ -33,6 +33,20 @@ $background-opacity: 0.9;
     }
 }
 
+//set text color ( use function if we want to return value
+
+@function set-text-color($color) {
+    @if (lightness($color) > 40) {
+        @return black;
+    } @else {
+        @return white;
+    
+    }
+    
+
+}
+
+
 // media quey mixin
 @mixin mediaSm {
     @media screen and (max-width: 500px) {
