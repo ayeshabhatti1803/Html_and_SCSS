@@ -6,7 +6,7 @@
   "homepage": "https://ayeshabhatti1803.github.io/Portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive ",
-    "depoly": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "ayesha",
   "license": "ISC",
