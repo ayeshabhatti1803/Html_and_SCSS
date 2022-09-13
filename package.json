@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "test",
   "main": "index.js",
-  "homepage": "https://ayeshabhatti1803.github.io/Html_and_SCSS",
+  
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive ",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive "
     
   },
   "author": "ayesha",
