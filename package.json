@@ -3,18 +3,10 @@
   "version": "1.0.0",
   "description": "test",
   "main": "index.js",
-<<<<<<< HEAD
   "homepage": "https://ayeshabhatti1803.github.io/Portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive ",
-    "deploy": "gh-pages -d dist"
-=======
-  
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive ",
-    
-    
->>>>>>> f4526b7f684f1b846c9e9a84608f9088df375ef8
+    "depoly": "gh-pages -d dist"
   },
   "author": "ayesha",
   "license": "ISC",
