@@ -1,4 +1,4 @@
-$primary-color: #464E64;
+$primary-color: #222428;
 $secondary-color: #51C35F;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
@@ -52,21 +52,46 @@ $background-opacity: 0.9;
     @media screen and (max-width: 500px) {
         @content;  
     } 
+    section {
+        padding: 120px 20px;
+    }
+
 }
 
 @mixin mediaMd {
     @media screen and (max-width: 768px) {
         @content;  
     } 
+    header {
+        padding: 10px 20px;
+    }
+    section {
+        padding: 120px 20px;
+    }
 }
 
 @mixin mediaLg {
     @media screen and (min-width: 769px) and (max-width:1170px) {
         @content;  
+    
     } 
+    header {
+        padding: 10px 20px;
+    }
+    section {
+        padding: 120px 20px;
+    }
+    
 }
 @mixin mediaXl {
     @media screen and (min-width: 1171px) {
         @content;  
+        
     } 
+    header {
+        padding: 10px 20px;
+    }
+    section {
+        padding: 120px 10px;
+    }
 }
