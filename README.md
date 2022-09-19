@@ -1,5 +1,4 @@
 #Portfolio
-<<<<<<< HEAD
 This is my portfolio
 My Portfolio Site
 https://ayeshabhatti1803.github.io/Portfolio/
